@@ -147,6 +147,9 @@ body {
   padding: 1em;
   transition: transform 0.5s ease-in-out, rotate 0.5s;
 }
+.navbar__burger-btn i {
+  pointer-events: none;
+}
 .navbar__search-btn {
   font-size: 2.2rem;
   padding: 0.5em;
