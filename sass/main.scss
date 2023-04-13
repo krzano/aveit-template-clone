@@ -95,6 +95,9 @@ body {
 		font-size: 2rem;
 		padding: 1em;
 		transition: transform 0.5s ease-in-out, rotate 0.5s;
+		i {
+			pointer-events: none;
+		}
 	}
 	&__search-btn {
 		font-size: 2.2rem;
