@@ -35,6 +35,12 @@ menuMobileLinks.forEach(link => {
 	})
 })
 
+window.addEventListener('click', e => {
+	if (e.target.closest('.navbar__menu-mobile') !== menuMobile && e.target !== burgerBtn) {
+		menuMobile.classList.remove('active')
+	}
+})
+
 allFaqQuestions.forEach(question => {
 	question.addEventListener('click', handleAccordion)
 })
@@ -45,6 +51,12 @@ infoBtn.addEventListener('click', () => {
 
 sidebarCloseBtn.addEventListener('click', () => {
 	sidebar.classList.remove('active')
+})
+
+window.addEventListener('click', e => {
+	if (e.target.closest('.sidebar') !== sidebar && e.target !== infoBtn) {
+		sidebar.classList.remove('active')
+	}
 })
 
 updateFooterYear()
