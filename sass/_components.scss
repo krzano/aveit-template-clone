@@ -1,0 +1,43 @@
+@use './colors' as *;
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.fw-normal {
+	font-weight: normal;
+}
+.section {
+	&__title-box {
+		position: relative;
+		padding-bottom: 1.5em;
+		margin: 0 auto;
+		text-align: center;
+		width: min(100%, 400px);
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			height: 2px;
+			background-color: $secondary-color;
+		}
+		&::after {
+			left: 180px;
+			width: 60px;
+		}
+		&::before {
+			left: 160px;
+			width: 15px;
+		}
+	}
+	&__title {
+		font-size: 3.6rem;
+	}
+	&__subtitle {
+		margin-bottom: 1em;
+		font-size: 1.8rem;
+		text-transform: uppercase;
+		color: $secondary-color;
+	}
+}
