@@ -2,7 +2,7 @@
 
 Aveit is a website created with HTML, Sass and JavaScript, that showcases the services and portfolio of Aveit, an online business solutions company. The website has a modern and elegant design, with the use of animations and responsive layout.
 
-**Live:   [ https://krzano.github.io/aveit-template-copy/](https://krzano.github.io/aveit-template-copy/)**
+**Live:   [ https://krzano.github.io/aveit-template-clone/](https://krzano.github.io/aveit-template-clone/)**
 
 ## Features
 
